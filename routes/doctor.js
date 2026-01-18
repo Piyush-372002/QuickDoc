@@ -17,7 +17,7 @@ const router = express.Router({ mergeParams: true });
 router.get('/doctorregistration', (req, res) => {
   const data = {};
   data.user = req.user;
-  data.NODE_ENV = process.env.NODE_ENV;
+  data.NODE_ENV =  process.env.NODE_ENV;
   res.render('doctorregistration', { data });
 });
 
