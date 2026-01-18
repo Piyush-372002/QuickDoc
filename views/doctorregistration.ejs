@@ -4,22 +4,7 @@
 <head>
   <!--Meta Data-->
   <%- include('partial/title.ejs'); %>
-
-  <% if (data.NODE_ENV == 'production') { %>
-    <link rel="stylesheet" href="assets/production/css/loginRegister.min.css">
-  <% } else { %>
-    <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/lib/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/lib/css/responsive.css">
-    <link rel="stylesheet" href="assets/lib/css/select2.min.css">
-    <link rel="stylesheet" href="assets/lib/css/spacing.css">
-    <link rel="stylesheet" href="assets/lib/css/style.css">
-    <link rel="stylesheet" href="assets/lib/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/lib/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="assets/lib/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-
-    <style>
+  <style>
       body {
         background: linear-gradient(135deg, #e0f0ff, #f4f9ff);
         min-height: 100vh;
@@ -119,6 +104,21 @@
         }
       }
     </style>
+
+  <% if (data.NODE_ENV == 'production') { %>
+    <link rel="stylesheet" href="assets/production/css/loginRegister.min.css">
+  <% } else { %>
+    <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/lib/css/responsive.css">
+    <link rel="stylesheet" href="assets/lib/css/select2.min.css">
+    <link rel="stylesheet" href="assets/lib/css/spacing.css">
+    <link rel="stylesheet" href="assets/lib/css/style.css">
+    <link rel="stylesheet" href="assets/lib/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/lib/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/lib/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+
   <% } %>
 </head>
 
