@@ -10,6 +10,22 @@ This website is hosted at: https://quickdoc-1.onrender.com/
 
 <br>
 
+## Tech Stack Used
+
+### 1. Backend
+Node.js, Express.js
+
+### 2. Database
+MongoDB
+
+### 3. Frontend
+EJS Templates including HTML, CSS, and embedded Javascript
+
+### 4. Payment Integration
+Using Razorpay
+
+<br>
+
 ## Figma Link for UI
 
 https://www.figma.com/design/sFgEgANYz2W3bKXpQ5coME/Untitled?node-id=0-1&t=oTAfsw1g8EpVJg40-1
